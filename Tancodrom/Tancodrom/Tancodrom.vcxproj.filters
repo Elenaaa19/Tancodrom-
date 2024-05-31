@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Tancodrom.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="OBJ_Loader.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Vehicle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShadowMapping.fs" />
+    <None Include="ShadowMapping.vs" />
+    <None Include="ShadowMappingDepth.fs" />
+    <None Include="ShadowMappingDepth.vs" />
+    <None Include="skybox.fs" />
+    <None Include="skybox.vs" />
+    <None Include="TankModelShader.fs" />
+    <None Include="TankModelShader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="skybox_images\skybox_back.jpg" />
+    <Image Include="skybox_images\skybox_bottom.jpg" />
+    <Image Include="skybox_images\skybox_front.jpg" />
+    <Image Include="skybox_images\skybox_left.jpg" />
+    <Image Include="skybox_images\skybox_right.jpg" />
+    <Image Include="skybox_images\skybox_top.jpg" />
+  </ItemGroup>
+</Project>
